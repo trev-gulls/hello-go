@@ -1,5 +1,5 @@
 ---
-status: pending
+status: completed
 created: 2026-03-05
 updated: 2026-03-05
 blocked-by: []
@@ -13,11 +13,11 @@ Publish a Go equivalent of the `@tgulls/hello` CLI as a Go module, so users can 
 
 ## Acceptance Criteria
 
-- [ ] Go module with `cmd/tgulls-hello/` containing a `main` package that prints "Hello, Go!"
-- [ ] Uses `go.mod` with appropriate module path
-- [ ] CLI test that runs the command in a subprocess and verifies output
-- [ ] Tagged and pushed to GitHub (makes it available on pkg.go.dev)
-- [ ] README with `go install` and `go run` instructions
+- [x] Go module with `cmd/tgulls-hello/` containing a `main` package that prints "Hello, Go!"
+- [x] Uses `go.mod` with appropriate module path
+- [x] CLI test that runs the command in a subprocess and verifies output
+- [x] Tagged and pushed to GitHub (makes it available on pkg.go.dev)
+- [x] README with `go install` and `go run` instructions
 
 ## Notes
 
